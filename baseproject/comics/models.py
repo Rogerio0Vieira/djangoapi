@@ -10,5 +10,5 @@ class Comics(models.Model):
   reading = models.BooleanField()
   finished = models.BooleanField()
   want_to_read = models.BooleanField()
-  cover = models.ImageField(upload_to ='uploads/')
+  cover = models.ImageField(upload_to ='uploads/', default='')
   created_at = models.DateTimeField(auto_now_add=True)
