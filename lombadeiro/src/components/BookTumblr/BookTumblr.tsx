@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { BookTumblrContainer } from "./styles";
 
 interface BookTumblrProps {
   favorite: boolean;
@@ -7,7 +8,7 @@ interface BookTumblrProps {
   imageName: string;
 }
 
-const BookTumblr: React.FC<BookTumblrProps> = ({ favorite, title, imagePath, imageName }) => {
+export const BookTumblr: React.FC<BookTumblrProps> = ({ favorite, title, imagePath, imageName }) => {
   const [isFavorite, setIsFavorite] = useState(favorite)
 
   const handleFavorite = () => {
@@ -15,7 +16,7 @@ const BookTumblr: React.FC<BookTumblrProps> = ({ favorite, title, imagePath, ima
   };
 
   return (
-    <div className="book-tumblr-container">
+    <BookTumblrContainer>
       <title>{title}</title>
       <img src={imagePath} alt={imageName} />
       <div className="meta-container">
@@ -23,6 +24,6 @@ const BookTumblr: React.FC<BookTumblrProps> = ({ favorite, title, imagePath, ima
           Colocar o icone do like aqui
         </button>
       </div>
-    </div>
+    </BookTumblrContainer>
   );
 };
