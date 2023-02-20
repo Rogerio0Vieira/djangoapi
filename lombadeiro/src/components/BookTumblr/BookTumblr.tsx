@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { BookTumblrContainer } from "./styles";
+import BookTumblrContainer  from "./styles";
 
 interface BookTumblrProps {
   favorite: boolean;
