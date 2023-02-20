@@ -1,9 +1,10 @@
-import { SearchFieldInput ,SearchIconI } from './styles';
+import React from 'react';
+import { SearchFieldInput,SearchIconI } from './styles';
 
-export const SearchField = () =>{
+export const SearchField = () => {
   return (
     <SearchFieldInput placeholder="O que procura ?">
       <SearchIconI/>
     </SearchFieldInput>
-  )
+  );
 }

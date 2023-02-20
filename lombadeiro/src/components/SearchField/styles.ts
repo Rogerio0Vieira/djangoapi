@@ -12,20 +12,12 @@ export const SearchFieldInput = styled.input`
     color: #999;
   }
 
-  ::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-  }
+ 
 
 `;
 
 export const SearchIconI = styled(FaSearch)`
-  color: #999;
+  
 `;
 
 
