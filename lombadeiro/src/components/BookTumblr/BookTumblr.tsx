@@ -7,7 +7,7 @@ interface BookTumblrProps {
   imagePath: string;
   imageName: string;
 }
-
+//adicionar o icone de lupa posicionando ele por cima do input
 export const BookTumblr: React.FC<BookTumblrProps> = ({ favorite, title, imagePath, imageName }) => {
   const [isFavorite, setIsFavorite] = useState(favorite)
 

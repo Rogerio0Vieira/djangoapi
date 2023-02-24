@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FaSearch } from 'react-icons/fa';
+
 
 export const SearchFieldInput = styled.input`
   padding: 10px;
@@ -16,8 +16,6 @@ export const SearchFieldInput = styled.input`
 
 `;
 
-export const SearchIconI = styled(FaSearch)`
-  
-`;
+
 
 
