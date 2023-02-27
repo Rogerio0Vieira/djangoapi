@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       {/* <BookTumblr favorite={true} imageName='teste' imagePath='teste' title='teste'/> */}
       <SearchField/>
-      <GenericButton name="teste"/>
+      <GenericButton name="teste" color="purple"/>
     </div>
   )
 }
