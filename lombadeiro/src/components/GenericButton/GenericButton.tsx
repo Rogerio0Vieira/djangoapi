@@ -8,7 +8,7 @@ export const GenericButton: React.FC<GenericButtonProps> = ({name}) =>{
 
   return(
     <GenericButtonStyled color='black'>
-      Teste
+      {name}
     </GenericButtonStyled>
   )
 };
