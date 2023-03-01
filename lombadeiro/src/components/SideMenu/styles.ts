@@ -8,5 +8,6 @@ export const SideMenuStyled = styled.div`
   position: fixed;
   width: 125px;
   height: 1vh
+  background-color: blue;
 
 `;
