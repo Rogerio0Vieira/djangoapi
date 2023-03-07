@@ -4,6 +4,7 @@ export const FilterContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+  
 `;
 
 export const Label = styled.label`
