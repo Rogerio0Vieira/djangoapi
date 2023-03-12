@@ -1,6 +1,6 @@
 import { FilterContainer, Label, Select } from "./styles"
 
-export const SideMenu = () => {
+export const Filter = () => {
   return(
     <FilterContainer>
       <Label>
