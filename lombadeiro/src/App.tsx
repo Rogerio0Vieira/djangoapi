@@ -13,9 +13,7 @@ function App() {
     <div className="App">
       {/* <BookTumblr favorite={true} imageName='teste' imagePath='teste' title='teste'/> */}
       <SideMenu/>
-      <Filter>
-        
-      </Filter>
+      <Filter/>
       <SearchField/>
       <GenericButton name="teste" color="purple"/>
     </div>
