@@ -14,7 +14,7 @@ function App() {
       {/* <BookTumblr favorite={true} imageName='teste' imagePath='teste' title='teste'/> */}
       <SideMenu/>
 
-        Filter/>
+        <Filter/>
 
       <SearchField/>
       <GenericButton name="teste" color="purple"/>
