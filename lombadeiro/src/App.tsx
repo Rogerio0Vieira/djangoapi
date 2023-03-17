@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       {/* <BookTumblr favorite={true} imageName='teste' imagePath='teste' title='teste'/> */}
+      
       <SideMenu/>
         <Filter/>
       <SearchField/>
